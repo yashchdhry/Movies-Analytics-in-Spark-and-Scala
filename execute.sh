@@ -14,7 +14,7 @@ else
 	echo "Executing script"
 	echo ""
 fi
-spark-shell -i total_rating_per_movie.scala
+spark-shell -i no_of_movies_per_rating.scala
 echo ""
 echo ""
 cat result/part*.csv
